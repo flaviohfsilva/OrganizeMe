@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../widgets/bottom_navigation.dart';
+
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -18,7 +20,7 @@ class _HomeState extends State<Home> {
         elevation: 0,
       ),
       body: ,
-      bottomNavigationBar: bottomNavegation(),
+      bottomNavigationBar: BottomNavegation(),
     );
   }
 }
