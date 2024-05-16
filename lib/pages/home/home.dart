@@ -19,7 +19,7 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
-      body: ,
+      body: Home(),
       bottomNavigationBar: BottomNavegation(),
     );
   }
