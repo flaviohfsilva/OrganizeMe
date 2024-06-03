@@ -19,3 +19,4 @@ const Color yellow = Color(0xFFC821);
 const Color lightYellow = Color(0xFEFAED);
 const Color pastelYellow = Color(0xFFDF7D);
 
+const Color primary = Colors.transparent;
