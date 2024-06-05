@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:organizeme/pages/home/home.dart';
+import 'package:organizeme/pages/library/library.dart';
+import 'package:organizeme/pages/library/livro-selecionado.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         //colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home(),
+      home: LivroSelecionado(),
     );
   }
 }

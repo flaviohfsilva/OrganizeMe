@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:organizeme/constants/colors.dart';
+import 'package:organizeme/pages/library/library.dart';
 
 
 class BottomNavegation extends StatefulWidget {
@@ -32,7 +33,8 @@ class _bottomNavegationState extends State<BottomNavegation> {
     return Scaffold(
       body: PageView(
         controller: pc,
-        children: [ // Aqui onde vamos colocar as telas para a navegação
+        children: [Biblioteca(),
+          // Aqui onde vamos colocar as telas para a navegação
         ],
         onPageChanged: setPaginaAtual,
       ),
@@ -63,7 +65,7 @@ class _bottomNavegationState extends State<BottomNavegation> {
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.book),
-              label: "Biblioteca"
+              label: "Biblioteca",
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.person_outline),
