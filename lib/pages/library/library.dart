@@ -29,7 +29,7 @@ class Biblioteca extends StatelessWidget {
                       hintText: 'Busque por autor, título ou ISBN',
                       prefixIcon: Icon(Icons.search),
                       border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(8.0),
+                        borderRadius: BorderRadius.circular(15.0),
                       ),
                       filled: true,
                       fillColor: Colors.white,
@@ -58,7 +58,10 @@ class Biblioteca extends StatelessWidget {
                 return Container(
                   width: 120.0,
                   margin: EdgeInsets.only(right: 10.0),
-                  color: Colors.red,
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                    borderRadius: BorderRadius.circular(15.0),
+                  ),
                   child: Center(
                     child: Image.asset(
                       'assets/book-hp.jpeg',
@@ -88,7 +91,10 @@ class Biblioteca extends StatelessWidget {
                 return Container(
                   width: 120.0,
                   margin: EdgeInsets.only(right: 10.0),
-                  color: Colors.red,
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                    borderRadius: BorderRadius.circular(15.0),
+                  ),
                   child: Center(
                     child: Image.asset(
                       'assets/book-hp.jpeg',
