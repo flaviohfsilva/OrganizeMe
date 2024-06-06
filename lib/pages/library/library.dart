@@ -60,12 +60,9 @@ class Biblioteca extends StatelessWidget {
                   margin: EdgeInsets.only(right: 10.0),
                   color: Colors.red,
                   child: Center(
-                    child: Text(
-                      'Harry Potter',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    child: Image.asset(
+                      'assets/book-hp.jpeg',
+                      fit: BoxFit.cover,
                     ),
                   ),
                 );
@@ -93,12 +90,9 @@ class Biblioteca extends StatelessWidget {
                   margin: EdgeInsets.only(right: 10.0),
                   color: Colors.red,
                   child: Center(
-                    child: Text(
-                      'Harry Potter',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    child: Image.asset(
+                      'assets/book-hp.jpeg',
+                      fit: BoxFit.cover,
                     ),
                   ),
                 );
