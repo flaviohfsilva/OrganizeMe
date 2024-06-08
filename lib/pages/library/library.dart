@@ -6,11 +6,10 @@ class Biblioteca extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          // Container azul com visão
           Container(
             width: double.infinity,
             color: Colors.blue.shade200,
-            padding: EdgeInsets.symmetric(vertical: 40.0), // Aumente o valor do padding aqui
+            padding: EdgeInsets.symmetric(vertical: 40.0),
             child: Column(
               children: [
                 Text(
@@ -26,16 +25,14 @@ class Biblioteca extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 50.0),
                   child: Container(
-                    margin: EdgeInsets.only(top: 20.0), // Adiciona margem superior
+                    margin: EdgeInsets.only(top: 20.0),
                     child: TextField(
                       decoration: InputDecoration(
                         hintText: 'Busque por autor, título ou ISBN',
-                        hintStyle: TextStyle(
-                          color: Colors.blue.shade200, // Cor do hint text
-                        ),
+                        hintStyle: TextStyle(color: Colors.blue.shade200),
                         suffixIcon: Icon(
                           Icons.search,
-                          color: Colors.blue.shade400, // Cor do ícone
+                          color: Colors.blue.shade400,
                         ),
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10.0),
@@ -67,7 +64,6 @@ class Biblioteca extends StatelessWidget {
               ),
               child: ListView(
                 children: [
-                  // Sugerido para você
                   Text(
                     'Sugerido para você',
                     style: TextStyle(
@@ -100,7 +96,6 @@ class Biblioteca extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  // Conheça novos títulos
                   Text(
                     'Conheça novos títulos',
                     style: TextStyle(
