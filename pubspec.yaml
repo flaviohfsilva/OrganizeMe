@@ -53,8 +53,12 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
+ uses-material-design: true
 
   assets:
+    - assets/imgs/imgs_introduction/
+    - assets/imgs/imgs_adversiting/
+    - assets/imgs/imgs_adversiting/exit_icon.png
   # - images/
 
 
@@ -81,6 +85,13 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Sora
+      fonts:
+        - asset: assets/fonts/Sora.ttf
+    - family: Codec
+      fonts:
+        - asset: assets/fonts/Codec.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
